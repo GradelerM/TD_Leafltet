@@ -11,7 +11,7 @@ Créer une webcarto représentant les lignes de métro, les stations auto-partag
 Ajouter un marqueur animé le long des lignes de métro [en cours].
 
 ### Option 2 : 
-Ajouter des zones tampon de 300 m au survol des stations auto-partage [en cours, voir L.Circle]. <br />
+Ajouter des zones tampon de 300 m au survol des stations auto-partage [terminée]. <br />
 Mettre en valeur les stations par un changement de représentation [terminé]. 
 
 ### Option 3 :
