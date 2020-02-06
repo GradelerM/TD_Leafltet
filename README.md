@@ -18,6 +18,12 @@ Mettre en valeur les stations par un changement de représentation [terminé].
 Proposer une fonction de dessin en ligne [en cours, voir Leaflet.draw].
 
 ## Contenu du rendu :
-<ul>Sources (HTML, CSS, JS)</ul>
-<ul>Une/des catpures d'écran du résultat</ul>
-<ul>Un fichier expliquant notre démarche et nos recherches pour arriver au résultat</ul>
+<ul>- Sources (HTML, CSS, JS)</ul>
+<ul>- Une/des catpures d'écran du résultat</ul>
+<ul>- Un fichier expliquant notre démarche et nos recherches pour arriver au résultat</ul>
+
+### A faire :
+<ul>- Option 1</ul>
+<ul>- Buffer de l'option 2</ul>
+<ul>- Option 3</ul>
+<ul>- Visuel (Marie se porte volontaire)</ul>
