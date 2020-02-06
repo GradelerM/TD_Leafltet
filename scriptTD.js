@@ -105,34 +105,44 @@ var metro =L.geoJSON(metro,{
 
 
 //============================== Stations autopartage =================
+
+// Création de la couche
 stationMap = new L.LayerGroup();
 map.addLayer(stationMap);
 
+// Définition de la fonction pour faire apparaître les buffers
+buffer = L.geoJSON(station, {
+  pointToLayer: function (feature, latlng) {
+    return L.circle(latlng, {
+      radius: 300,
+      color: "red",
+      weight: 2,
+    });
+  }
+});
 
-/*var stationIcon = L.icon({
-  iconUrl: 'car_icon.png',
-  iconSize: [38, 38],
-  iconAnchor: [19, 38]
-});*/
+// Buffer2
+var buffer2;
 
+// Affichage de la couche + interactivité
 interactiveStation = L.geoJSON(station, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {icon: stationIcon}).bindPopup(feature.properties.nom);
   },
-  onEachFeature: function(feature, layer)
-  {
+  onEachFeature: function(feature, layer) {
     layer.on("mouseover", function(e){
       layer.setIcon(stationIcon2);
       console.log(feature.geometry.coordinates);
-      L.circle(feature.geometry.coordinates, {
-        color: 'red',
-        fillColor: 'orange',
-        fillOpacity: 0.8,
-        radius: 500
-      })
+      console.log(e.latlng);
+      buffer2 = L.circle(e.latlng, {
+        radius: 300,
+        color: "red",
+        weight: 2,
+      }).addTo(map);
     });
     layer.on("mouseout", function(e){
-      layer.setIcon(stationIcon)
+      layer.setIcon(stationIcon);
+      map.removeLayer(buffer2);
     });
   }
 }).addTo(stationMap);
@@ -145,7 +155,7 @@ var overlayMaps = {
     "Lignes de metro": metroMap,
     "Stations autopartage": stationMap
 };
-L.control.layers( overlayMaps).addTo(map);
+L.control.layers(overlayMaps).addTo(map);
 
 
 //============================== FitBounds pour affichage ===================
