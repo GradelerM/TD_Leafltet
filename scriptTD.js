@@ -72,7 +72,6 @@ var stationIcon2 = L.icon({
 
 //============================== metro =============================
 
-//============================== Marker animé le long des lignes ====================================
 
 //style
 function getColor(d) {
@@ -103,6 +102,16 @@ var metro =L.geoJSON(metro,{
   style : style,
 }).addTo(metroMap);
 
+// Marker anime
+metro.eachLayer(function(layer){
+    L.animatedMarker(layer._latlngs[0],{ 
+    	speed : 10000,
+    	onEnd : function(){
+    		this.bindPopup("Terminus ! <br /> Tout le monde descend !").openPopup();
+    		}
+    	}).addTo(metroMap);
+	
+});
 
 //============================== Stations autopartage =================
 stationMap = new L.LayerGroup();
