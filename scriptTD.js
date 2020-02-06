@@ -104,12 +104,31 @@ var metro =L.geoJSON(metro,{
   }
 }).addTo(metroMap);
 
-// Marker anime
+//=============marker anime
+
+//icones
+var metroIcon = L.icon({
+  iconUrl: 'image/metro_marker.svg',
+  iconSize: [50, 50],
+  iconAnchor: [25, 40],
+  popupAnchor : [0,-25]
+});
+
+var metroIcon2 = L.icon({
+  iconUrl: 'image/metro_descente.svg',
+  iconSize: [50, 50],
+  iconAnchor: [25, 40],
+  popupAnchor : [0,-25]
+});
+
+//marker anime
 metro.eachLayer(function(layer){
     L.animatedMarker(layer._latlngs[0],{ 
-    	speed : 10000,
+    	icon : metroIcon,
+    	speed : 10,
     	onEnd : function(){
     		this.bindPopup("Terminus ! <br /> Tout le monde descend !").openPopup();
+    		this.setIcon(metroIcon2);
     		}
     	}).addTo(metroMap);
 	
