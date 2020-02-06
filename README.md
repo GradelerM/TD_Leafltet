@@ -22,7 +22,7 @@ Proposer une fonction de dessin en ligne [en cours, voir Leaflet.draw].
 <ul>- Une/des catpures d'écran du résultat</ul>
 <ul>- Un fichier expliquant notre démarche et nos recherches pour arriver au résultat</ul>
 
-### A faire :
+## A faire :
 <ul>- Option 1</ul>
 <ul>- Buffer de l'option 2</ul>
 <ul>- Option 3</ul>
