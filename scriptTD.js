@@ -59,19 +59,18 @@ onEachFeature: interactions
 //============================== option 2 =============================
 
 var stationIcon = L.icon({
-  iconUrl: 'image/car_icon.png',
+  iconUrl: 'image/voiture_marker.svg',
   iconSize: [38, 38],
   iconAnchor: [19, 38]
 });
 
 var stationIcon2 = L.icon({
-  iconUrl: 'image/car_icon2.png',
+  iconUrl: 'image/voiture_select.svg',
   iconSize: [38, 38],
   iconAnchor: [19, 38]
 });
 
 //============================== metro =============================
-
 
 //style
 function getColor(d) {
@@ -114,38 +113,36 @@ metro.eachLayer(function(layer){
 });
 
 //============================== Stations autopartage =================
+
+// Création de la couche
 stationMap = new L.LayerGroup();
 map.addLayer(stationMap);
 
+// Définition de la variable "buffer"
+var buffer;
 
-/*var stationIcon = L.icon({
-  iconUrl: 'car_icon.png',
-  iconSize: [38, 38],
-  iconAnchor: [19, 38]
-});*/
-
+// Affichage de la couche + interactivité
 interactiveStation = L.geoJSON(station, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {icon: stationIcon}).bindPopup(feature.properties.nom);
   },
-  onEachFeature: function(feature, layer)
-  {
+  onEachFeature: function(feature, layer) {
     layer.on("mouseover", function(e){
       layer.setIcon(stationIcon2);
       console.log(feature.geometry.coordinates);
-      L.circle(feature.geometry.coordinates, {
-        color: 'red',
-        fillColor: 'orange',
-        fillOpacity: 0.8,
-        radius: 500
-      })
+      console.log(e.latlng);
+      buffer = L.circle(e.latlng, {
+        radius: 300,
+        color: "red",
+        weight: 2,
+      }).addTo(map);
     });
     layer.on("mouseout", function(e){
-      layer.setIcon(stationIcon)
+      layer.setIcon(stationIcon);
+      map.removeLayer(buffer);
     });
   }
 }).addTo(stationMap);
-
 
 //============================== Gestion des Layers ===================
 
