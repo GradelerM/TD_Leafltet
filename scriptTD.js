@@ -133,8 +133,10 @@ interactiveStation = L.geoJSON(station, {
       console.log(e.latlng);
       buffer = L.circle(e.latlng, {
         radius: 300,
-        color: "red",
+        color: '#ffa31a',
         weight: 2,
+        fillColor: '#ffb914',
+        fillOpacity: 0.5
       }).addTo(map);
     });
     layer.on("mouseout", function(e){
