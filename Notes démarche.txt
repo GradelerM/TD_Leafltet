@@ -1,0 +1,6 @@
+ - transformer les données shp en format geojson afin de pouvoir les traiter avec leaflet => Qgis
+	- je ne garde que les champs qui me seront utilses : pour les iris je ne garde que tchom et les id ainsi que les libellés
+	- pour les lignes de metro je garde que l'id, le nom de la ligne et le libellé
+	- pour les stations autopartage, seulement gardé l'id et le nom
+- je passe mes fichiers geojson en .js en leur donnant des noms de variables pour les apeller plus facilement
+

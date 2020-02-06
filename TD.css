@@ -1,0 +1,14 @@
+body {background-color: azure;}
+
+h1 {font-size: 25px;
+	color : orange;}
+
+#map {
+	width : 1000px;
+	height: 500px;
+}
+.labelpoly {
+	color: black;
+	background : orange;
+	border : none;
+}
