@@ -99,6 +99,9 @@ map.addLayer(metroMap);
 // affichage
 var metro =L.geoJSON(metro,{
   style : style,
+  onEachFeature : function(feature,layer){
+  	layer.bindTooltip("ligne " + feature.properties.ligne, {sticky : true})
+  }
 }).addTo(metroMap);
 
 // Marker anime
