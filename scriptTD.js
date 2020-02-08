@@ -175,7 +175,8 @@ var overlayMaps = {
     "Lignes de metro": metroMap,
     "Stations autopartage": stationMap
 };
-L.control.layers( overlayMaps).addTo(map);
+L.control.layers({}, overlayMaps).addTo(map);
+
 
 
 //============================== FitBounds pour affichage ===================
