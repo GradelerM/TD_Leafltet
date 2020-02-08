@@ -56,6 +56,38 @@ style: {
 onEachFeature: interactions
 }).addTo(irisMap)
 
+// legende des iris
+
+  var legendiris = L.control({ position: 'bottomright' })
+  legendiris.onAdd = function (map) {
+    var div = L.DomUtil.create('div', 'info legend')
+    var limits = irischoro.options.limits
+    var colors = irischoro.options.colors
+    var labels = []
+
+    // Add min & max
+    div.innerHTML = '<div class="labels"></div>' + '<div class="min">' + limits[0] + '</div> \
+      <div class="max">' + limits[limits.length - 1] + '</div></div>'
+
+    limits.forEach(function (limit, index) {
+      labels.push('<li style="background-color: ' + colors[index] + '"></li>')
+    })
+
+    div.innerHTML += '<ul>' + labels.join('') + '</ul>'
+    return div
+  }
+
+irisMap.onAdd = function(map){
+  legendiris.addTo(map);
+  irischoro.addTo(map)
+}
+
+irisMap.onRemove = function(map){
+  legendiris.remove(map)
+  irischoro.remove(map)
+}
+
+
 //============================== option 2 =============================
 
 var stationIcon = L.icon({
