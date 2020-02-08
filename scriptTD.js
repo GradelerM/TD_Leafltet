@@ -168,6 +168,33 @@ interactiveStation = L.geoJSON(station, {
   }
 }).addTo(stationMap);
 
+
+//=============================Fonction Dessin =================
+var editableLayers = new L.FeatureGroup();
+map.addLayer(editableLayers);
+
+var markerdraw = L.Icon.extend({
+	options: {
+		shadowUrl: null,
+		iconAnchor: new L.Point(12, 12),
+		iconSize: new L.Point(24, 24),
+		iconUrl: 'image/voiture_marker.svg'
+	}
+});
+
+var drawnItems = new L.FeatureGroup();
+	map.addLayer(drawnItems);
+
+map.addControl(new L.Control.Draw({
+	edit: { featureGroup: drawnItems }
+}));
+
+map.on('draw:created', function(event) {
+	var layer = event.layer;
+	drawnItems.addLayer(layer);
+});
+
+
 //============================== Gestion des Layers ===================
 
 var overlayMaps = {
