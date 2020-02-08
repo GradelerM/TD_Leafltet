@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="94.985mm" height="56.831mm" version="1.1" viewBox="0 0 94.985 56.831" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-65.881 -207.82)">
+  <path d="m101.97 249.08 10.723 14.769 10.723-14.769z" stroke="#080808" stroke-width=".91063"/>
+  <path d="m104.73 208.32c-5.1563 0-9.3064 4.9086-9.3064 11.005 0 0.3769 0.0158 0.74865 0.0468 1.1156-0.0302 0.34507-0.0468 0.69467-0.0468 1.0495v11.214c0 5.5316 3.7652 9.985 8.4435 9.985h17.084c4.6783 0 8.4448-4.4534 8.4448-9.985v-11.214c0-0.35484-0.0179-0.70444-0.0481-1.0495 0.031-0.36694 0.0481-0.73869 0.0481-1.1156 0-6.0967-4.1514-11.005-9.3077-11.005z" stroke="#001319" stroke-linejoin="round" style="paint-order:normal"/>
+  <g fill="#fff" stroke="#f4fcff" stroke-linejoin="round" stroke-width=".2">
+   <rect x="98.747" y="212.35" width="27.455" height="17.137" ry="6.2929" style="paint-order:normal"/>
+   <rect x="105.24" y="237.4" width="14.283" height="1.7603" ry=".88017" style="paint-order:normal"/>
+   <rect x="98.682" y="232.97" width="4.7825" height="4.6826" ry=".88018" style="paint-order:fill markers stroke"/>
+   <rect x="121.3" y="232.97" width="4.7825" height="4.6826" ry=".88018" style="paint-order:fill markers stroke"/>
+  </g>
+  <g stroke="#001319" stroke-linejoin="round">
+   <rect x="102.82" y="242.69" width="1.1762" height="2.8485" ry=".17339" style="paint-order:fill markers stroke"/>
+   <rect x="101.04" y="245.44" width="4.747" height=".20632" ry=".10316" style="paint-order:fill markers stroke"/>
+   <rect x="121.4" y="242.82" width="1.1762" height="3.0232" ry=".18402" style="paint-order:fill markers stroke"/>
+   <rect x="119.61" y="245.74" width="4.747" height=".20632" ry=".10316" style="paint-order:fill markers stroke"/>
+  </g>
+  <rect x="112.07" y="211.35" width=".79929" height="18.875" ry=".073591" fill="#636363" stroke="#001319" stroke-linejoin="round" style="paint-order:fill markers stroke"/>
+ </g>
+</svg>

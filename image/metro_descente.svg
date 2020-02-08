@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="94.985mm" height="56.831mm" version="1.1" viewBox="0 0 94.985 56.831" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-65.881 -207.82)">
+  <g transform="translate(-14.993 79.006)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".2">
+   <g transform="translate(.038002 -.15012)">
+    <path d="m142.31 155.24c-0.017 2e-3 -0.0331 0.0101-0.045 0.0243l-1.9787 2.3854c-0.0236 0.0285-0.0197 0.0704 9e-3 0.0941l11.908 9.8769h3.3848l0.64182-0.77359c0.0236-0.0285 0.0197-0.0704-9e-3 -0.0941l-13.862-11.497c-0.0142-0.0118-0.0321-0.0171-0.0491-0.0155z" style="paint-order:fill markers stroke"/>
+    <rect x="144.01" y="156.66" width="4.0775" height="3.3819" ry=".066817" style="paint-order:fill markers stroke"/>
+    <rect x="148.09" y="160.04" width="4.0775" height="3.3819" ry=".066817" style="paint-order:fill markers stroke"/>
+    <rect x="152.17" y="163.43" width="4.0775" height="3.3819" ry=".066817" style="paint-order:fill markers stroke"/>
+   </g>
+   <rect x="141.79" y="156.51" width="6.3408" height="4.409" ry=".066817" style="paint-order:fill markers stroke"/>
+  </g>
+  <path d="m101.97 249.08 10.723 14.769 10.723-14.769z" stroke="#080808" stroke-width=".91063"/>
+  <path d="m104.73 208.32c-5.1563 0-9.3064 4.9086-9.3064 11.005 0 0.3769 0.0158 0.74865 0.0468 1.1156-0.0302 0.34507-0.0468 0.69467-0.0468 1.0495v11.214c0 5.5316 3.7652 9.985 8.4435 9.985h17.084c4.6783 0 8.4448-4.4534 8.4448-9.985v-11.214c0-0.35484-0.0179-0.70444-0.0481-1.0495 0.031-0.36694 0.0481-0.73869 0.0481-1.1156 0-6.0967-4.1514-11.005-9.3077-11.005z" stroke="#001319" stroke-linejoin="round" style="paint-order:normal"/>
+  <g fill="#fff" stroke="#f4fcff" stroke-linejoin="round" stroke-width=".2">
+   <rect x="98.747" y="212.35" width="27.455" height="17.137" ry="6.2929" style="paint-order:normal"/>
+   <rect x="105.24" y="237.4" width="14.283" height="1.7603" ry=".88017" style="paint-order:normal"/>
+   <rect x="98.682" y="232.97" width="4.7825" height="4.6826" ry=".88018" style="paint-order:fill markers stroke"/>
+   <rect x="121.3" y="232.97" width="4.7825" height="4.6826" ry=".88018" style="paint-order:fill markers stroke"/>
+  </g>
+  <g stroke="#001319" stroke-linejoin="round">
+   <rect x="102.82" y="242.69" width="1.1762" height="2.8485" ry=".17339" style="paint-order:fill markers stroke"/>
+   <rect x="101.04" y="245.44" width="4.747" height=".20632" ry=".10316" style="paint-order:fill markers stroke"/>
+   <rect x="121.4" y="242.82" width="1.1762" height="3.0232" ry=".18402" style="paint-order:fill markers stroke"/>
+   <rect x="119.61" y="245.74" width="4.747" height=".20632" ry=".10316" style="paint-order:fill markers stroke"/>
+  </g>
+  <g stroke-linejoin="round">
+   <rect x="112.07" y="211.35" width=".79929" height="18.875" ry=".073591" fill="#636363" stroke="#001319" style="paint-order:fill markers stroke"/>
+   <circle cx="144.62" cy="221.11" r="2.1828" stroke="#000" stroke-linecap="round" stroke-width=".2" style="paint-order:fill markers stroke"/>
+   <path d="m143.35 224.3c-0.1217-2e-3 -0.24283 0.0122-0.36173 0.0398-0.0391 3e-3 -0.0782 5e-3 -0.11782 0.0145l-3.2184 0.73742c-0.26608 0.0609-0.46588 0.25105-0.55139 0.48886-0.0444 0.0631-0.0828 0.13173-0.10749 0.20929l-1.0025 3.145c-0.12983 0.40735 0.094 0.83889 0.50178 0.96739s0.84065-0.096 0.97048-0.50333l0.92088-2.8918 1.0118-0.23151-1.4263 4.4442c-0.1729 0.53891-0.16233 1.0932-8e-3 1.5684 0.0323 0.32897 0.0823 0.72263 0.17415 1.0914 2e-3 0.01 3e-3 0.0193 5e-3 0.0289l0.015 0.0543c2.2e-4 7.9e-4 2.6e-4 2e-3 5.3e-4 3e-3 1.3e-4 5.2e-4 2.6e-4 5.2e-4 5.3e-4 1e-3l1.1121 4.0545-3.0055 2.5724c-0.32483 0.27801-0.36184 0.7624-0.0827 1.0862 0.27917 0.32384 0.76554 0.36069 1.0904 0.0827l3.374-2.8877c0.25539-0.21857 0.32977-0.56395 0.21549-0.85938-5e-3 -0.0457-0.0112-0.0916-0.0238-0.13746l-1.0558-3.8489c0.13129-0.023 0.26042-0.0612 0.38499-0.1173l2.7099 9.0651c0.17937 0.59996 0.65315 0.98205 1.062 0.85679 0.40881-0.12526 0.5933-0.709 0.41393-1.309l-2.7864-9.3204c-0.0372-0.1243-0.0891-0.23649-0.14831-0.33952-0.0446-0.24166-5e-3 -0.55072 0.0398-0.786l1.2289-3.8287 0.43512 1.0108c0.0314 0.0728 0.0749 0.13548 0.12351 0.19275 0.0586 0.0878 0.13475 0.16571 0.22996 0.22583l2.7916 1.7627c0.36149 0.22828 0.83535 0.1209 1.0625-0.24133 0.2271-0.36224 0.11914-0.83779-0.24236-1.0661l-2.621-1.6552-1.2346-2.866c-0.11268-0.2616-0.35102-0.42763-0.6134-0.4594-0.33179-0.21454-0.61411-0.28089-0.83509-0.27957-0.14278-0.0463-0.28741-0.0724-0.4315-0.0744z" stroke="#000" stroke-linecap="round" stroke-width=".2" style="paint-order:fill markers stroke"/>
+  </g>
+ </g>
+</svg>
