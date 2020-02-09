@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="67.675mm" height="67.675mm" version="1.1" viewBox="0 0 67.675 67.675" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <linearGradient id="linearGradient1387" x1="69.359" x2="69.353" y1="51.9" y2="92.648" gradientTransform="matrix(1.6247 0 0 1.6247 353.24 112.96)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#969696" offset="0"/>
+   <stop stop-color="#cfcfcf" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-432.06 -196.75)" stroke="#969696">
+  <path d="m465.93 197.29c-14.707-0.59057-26.764 15.415-21.815 29.35 1.6754 4.8206 4.8242 8.9012 7.3581 13.291 4.8156 7.8543 9.6314 15.708 14.447 23.563 6.6748-10.863 13.309-21.751 20.011-32.598 7.3344-12.129-0.12884-29.545-13.889-32.778-1.9883-0.54778-4.0512-0.82599-6.1131-0.82569z" fill="url(#linearGradient1387)" stroke-width=".911"/>
+  <circle cx="465.93" cy="219.91" r="15.084" fill="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width=".911" style="paint-order:normal"/>
+  <g transform="matrix(1.3419 0 0 1.3262 374.57 167.1)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width=".89954">
+   <path d="m71.851 35.704-6.2296 0.02376c-0.7017 0.0027-0.80275 0.66548-1.219 1.4407l-0.53072 0.98754-1.5394 0.21756c-0.69797 0.09851-1.2666 0.59002-1.2666 1.3229v1.3229c0 1.1817 0.56488 1.3258 1.2666 1.3229l1.2811-0.0052a1.6036 1.6036 0 0 0 1.6004 1.525 1.6036 1.6036 0 0 0 1.6004-1.5384l3.0773-0.01291a1.6036 1.6036 0 0 0-5.29e-4 0.01447 1.6036 1.6036 0 0 0 1.6035 1.6035 1.6036 1.6036 0 0 0 1.604-1.6035 1.6036 1.6036 0 0 0-0.0011-0.02739l0.72916-0.0031c0.7017-0.0029 1.2814-0.09375 1.2666-1.3229l-0.02379-1.9606c-0.0088-0.73284-0.84406-0.59066-1.604-0.85524l-0.51315-1.0816c-0.35446-0.74735-0.39952-1.3731-1.1012-1.3705z" style="paint-order:normal"/>
+   <circle cx="65.198" cy="42.286" r="1.6036" style="paint-order:normal"/>
+   <circle cx="71.502" cy="42.329" r="1.6036" style="paint-order:normal"/>
+  </g>
+ </g>
+</svg>
