@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="66.791mm" height="65.643mm" version="1.1" viewBox="0 0 66.791 65.643" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-363.89 -198.28)" fill="#969696" stroke="#969696">
+  <g transform="matrix(2.1967 0 0 2.1969 333.09 -298.78)" fill="#969696" stroke="#969696" stroke-width=".45521">
+   <g transform="matrix(-.70711 -.70711 -.70711 .70711 255.76 62.322)" stroke-linecap="round" stroke-linejoin="round" stroke-width=".45521">
+    <rect x="31.871" y="271.1" width="3.2419" height="21.708" ry=".072798" style="paint-order:fill markers stroke"/>
+    <rect transform="scale(1,-1)" x="31.89" y="-268.93" width="3.2419" height="1.8833" ry=".4187" style="paint-order:fill markers stroke"/>
+    <path d="m32.096 294.87-0.15394 0.14465c-0.0093 9e-3 -0.0093 0.0231 0 0.0317l1.5419 1.4486c0.0093 9e-3 0.02413 9e-3 0.03343 0l1.5419-1.4486c0.0093-9e-3 0.0093-0.0231 0-0.0317l-0.15394-0.14465z" style="paint-order:fill markers stroke"/>
+   </g>
+   <path transform="scale(.26458)" d="m76.395 871.65c-12.833 0-23.4 10.567-23.4 23.4v49.635c0 12.833 10.567 23.4 23.4 23.4h49.637c12.833 0 23.393-10.567 23.393-23.4v-49.635c0-0.59721-0.0293-1.1888-0.0742-1.7754l-15.043 15.043v36.367c0 4.719-3.5564 8.2832-8.2754 8.2832h-49.637c-4.719 0-8.2812-3.5642-8.2812-8.2832v-49.635c0-4.719 3.5623-8.2832 8.2812-8.2832h39.072l14.732-14.732c-1.3547-0.24812-2.7462-0.38476-4.168-0.38476z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;paint-order:fill markers stroke;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+  </g>
+ </g>
+</svg>

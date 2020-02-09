@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="67.675mm"
+   height="67.95mm"
+   version="1.1"
+   viewBox="0 0 67.675 67.95"
+   id="svg32"
+   sodipodi:docname="option_metro.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs36" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1800"
+     inkscape:window-height="1106"
+     id="namedview34"
+     showgrid="false"
+     inkscape:zoom="0.91893553"
+     inkscape:cx="-88.665139"
+     inkscape:cy="128.40944"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg32" />
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g868">
+    <path
+       d="m 24.621,0.50231 c -6.1917,0 -11.175,5.8942 -11.175,13.215 0,0.45258 0.01902,0.89898 0.05617,1.3396 -0.03626,0.41436 -0.05617,0.83416 -0.05617,1.2602 v 13.466 c 0,6.6423 4.5213,11.99 10.139,11.99 h 20.514 c 5.6177,0 10.141,-5.3476 10.141,-11.99 v -13.466 c 0,-0.42609 -0.0215,-0.84589 -0.05776,-1.2602 0.03722,-0.44062 0.05776,-0.88702 0.05776,-1.3396 0,-7.3209 -4.985,-13.215 -11.177,-13.215 z"
+       style="fill:#969696;stroke:#969696;stroke-width:0.99997997;stroke-linejoin:round;paint-order:normal"
+       id="path4"
+       inkscape:connector-curvature="0" />
+    <path
+       d="M 21.308,49.435 34.184,67.17 47.06,49.435 Z"
+       id="path6"
+       inkscape:connector-curvature="0"
+       style="fill:#969696;stroke:#969696;stroke-width:0.91061002" />
+    <g
+       transform="matrix(1.2008,0,0,1.2008,-22,-156.07)"
+       id="g16"
+       style="fill:#fffefe;stroke:#f1f1f1;stroke-width:0.16655;stroke-linejoin:round;fill-opacity:1">
+      <rect
+         x="32.842999"
+         y="134.41"
+         width="27.455"
+         height="17.136999"
+         ry="6.2929001"
+         style="paint-order:normal;fill:#fffefe;fill-opacity:1"
+         id="rect8" />
+      <rect
+         x="39.334999"
+         y="159.46001"
+         width="14.283"
+         height="1.7603"
+         ry="0.88016999"
+         style="paint-order:normal;fill:#fffefe;fill-opacity:1"
+         id="rect10" />
+      <rect
+         x="32.778"
+         y="155.03"
+         width="4.7824998"
+         height="4.6826"
+         ry="0.88018"
+         style="paint-order:fill markers stroke;fill:#fffefe;fill-opacity:1"
+         id="rect12" />
+      <rect
+         x="55.393002"
+         y="155.03"
+         width="4.7824998"
+         height="4.6826"
+         ry="0.88018"
+         style="paint-order:fill markers stroke;fill:#fffefe;fill-opacity:1"
+         id="rect14" />
+    </g>
+    <g
+       transform="matrix(1.2008,0,0,1.2008,-22,-156.07)"
+       id="g26"
+       style="fill:#969696;stroke:#969696;stroke-width:0.83275998;stroke-linejoin:round">
+      <rect
+         x="36.921001"
+         y="164.75999"
+         width="1.1762"
+         height="2.8485"
+         ry="0.17339"
+         style="paint-order:fill markers stroke"
+         id="rect18" />
+      <rect
+         x="35.134998"
+         y="167.5"
+         width="4.7470002"
+         height="0.20632"
+         ry="0.10316"
+         style="paint-order:fill markers stroke"
+         id="rect20" />
+      <rect
+         x="55.495998"
+         y="164.88"
+         width="1.1762"
+         height="3.0232"
+         ry="0.18402"
+         style="paint-order:fill markers stroke"
+         id="rect22" />
+      <rect
+         x="53.709999"
+         y="167.8"
+         width="4.7470002"
+         height="0.20632"
+         ry="0.10316"
+         style="paint-order:fill markers stroke"
+         id="rect24" />
+    </g>
+    <rect
+       id="rect30"
+       style="paint-order:fill markers stroke"
+       stroke-width=".99998"
+       stroke-linejoin="round"
+       stroke="#969696"
+       fill="#636363"
+       ry=".088368"
+       height="22.665"
+       width=".95979"
+       y="4.1287"
+       x="33.442" />
+  </g>
+</svg>

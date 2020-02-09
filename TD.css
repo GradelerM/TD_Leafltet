@@ -1,14 +1,314 @@
-body {background-color: azure;}
+/*========Généralités du document========*/
 
-h1 {font-size: 25px;
-	color : orange;}
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        box-sizing: border-box;
+    }
+
+html {height: 100%}
+
+/*Titres*/
+
+h1 {
+	font-family: Roboto;
+	font-style: bold;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: #404040;
+	padding-bottom: 30px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+
+/*================Header================*/
+
+
+header {
+	position: relative;
+	height: 100%;
+	background-image: linear-gradient(180deg, rgba(255, 153, 0, 0.7) 14.06%, rgba(135, 88, 211, 0.7) 100%),
+                  url("image/background.jpg");
+    background-attachment:fixed;       
+}
+
+#main_title {
+
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 60px;
+	letter-spacing: 0.05em;
+	color : #FFFFFF;
+	text-align: center;
+	padding: 50px;
+	background-color: rgba(85, 46, 17, 0.4);
+	border: 1px solid #FFFFFF;
+}
+
+#subtitle {
+	font-family: Roboto;
+	font-style: bold;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 42px;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-variant: small-caps;
+	padding: 30px;
+}
+
+#header_div {
+	position: absolute;
+	width: 80%;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*================Body=================*/
+
+
+body {background-color: white; height: 100%;}
+
+
+/*================Section(1)=================*/
+
+#separateur {
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.column {
+ 	 float: left;
+}
+
+.left {
+  	width: 35%;
+  	height: 6px;
+  	border-radius: 5px;
+  	background-color: #E5E5E5;
+  	margin-left: 5%;
+  	margin-top: 45px;
+}
+
+.middle {
+ 	width: 20%;
+}
+
+.right {
+  	width: 35%;
+  	height: 6px;
+  	border-radius: 5px;
+  	background-color: #E5E5E5;
+  	margin-right: 5%;
+  	margin-top: 45px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+ 	content: "";
+  	display: table;
+  	clear: both;
+}
+
+.to_center {
+	position: relative;
+	width: 100%;
+	left: 50%;
+	transform: translateX(-25%);
+}
+
+/*================Section(2)=================*/
+
+.marges {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
+.texte {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	color: #7C7C7C;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*===============Cartographie================*/
 
 #map {
 	width : 1000px;
-	height: 500px;
+	height: 600px;
+	top: 50%; left: 50%;
+	transform: translate(-50%);
 }
-.labelpoly {
-	color: black;
-	background : orange;
-	border : none;
+
+#fond_carte {
+	margin-top: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #F1F1F1;
+}
+
+/*================Section(3)=================*/
+
+#explications {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.col_hauteur {
+	height: 200px;
+}
+
+.col_icon {
+	width: 30%;
+}
+
+.col_explications {
+	width: 70%;
+	padding-right: 50px;
+}
+
+.icone_option {
+	position: relative;
+	width: 100%;
+	top: 50%; left: 70%;
+	transform: translateY(-50%);
+}
+
+.texte_option {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 33px;
+	color: #7C7C7C;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	padding-left: 80px;
+	padding-right: 150px;
+}
+
+/*================Section(4)=================*/
+
+.credits {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.nom {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+	color : #404040;
+	text-align: center;
+	margin: 10px;
+}
+
+/*================Section(5)=================*/
+
+#liens {
+	position: relative;
+	height: 320px;
+	background-image: linear-gradient(180deg, rgba(135, 88, 211, 0.7) 45%, rgba(255, 153, 0, 0.7) 100%),
+                  url("image/background.jpg");
+    background-attachment:fixed;       
+}
+
+
+
+.col_liens {
+	float: left;
+	width: 33.33%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.centrer_lien {
+	position: relative;
+	max-width: 95%;
+	left: 50%;
+	transform: translateX(-50%);	
+	background-color: rgba(85, 46, 17, 0.4);
+	border: 1px solid #FFFFFF;
+}
+
+.centrer_logo {
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	width: 100px;
+	left: 50%;
+	height: 150px;
+	transform: translateX(-50%);
+}
+
+.centrer_leaf {
+	position: relative;
+	padding-top: 45px;
+	padding-bottom: 40px;
+	width: 100px;
+	left: 50%;
+	height: 150px;
+	transform: translateX(-90%);
+}
+
+.bouton_lien {
+	font-family: Roboto;
+	font-style: bold;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 42px;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-variant: small-caps;
+	display: block;
+}
+
+/*==================Footer===================*/
+
+footer {
+	position: relative;
+	height: 50px;
+}
+
+#endnote {
+	font-family: 'Roboto', sans-serif;
+	font-style: thin;
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 33px;
+	letter-spacing: 0.05em;
+	color: #7C7C7C;
+	position: relative;
+	text-align: center;
+	
 }

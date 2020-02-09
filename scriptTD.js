@@ -25,7 +25,7 @@ function highlightFeature(e) {
 
 //reset le surlignage
 function resetHighlight(e) {
-    geojson.resetStyle(e.target);
+    irischoro.resetStyle(e.target);
 }
 // zoomer sur la commune
 function interactions (feature, layer) {
@@ -41,7 +41,7 @@ irisMap = new L.LayerGroup();
 map.addLayer(irisMap);
 
 //affichage des communes
-geojson = L.choropleth(iris, {
+irischoro = L.choropleth(iris, {
 valueProperty: function(feature){
 return (feature.properties.tchom)
   }, // which property in the features to use
@@ -239,4 +239,4 @@ L.control.layers({}, overlayMaps).addTo(map);
 
 
 //============================== FitBounds pour affichage ===================
-map.fitBounds(geojson.getBounds());
+map.fitBounds(irischoro.getBounds());
