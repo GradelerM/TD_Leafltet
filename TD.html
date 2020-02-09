@@ -1,9 +1,13 @@
+<!-- Document HTML -->
+
+<!DOCTYPE html>
+
 <html>
 	<head>
 		<meta charset="utf-8" />
 		<title>TD Leaflet</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
 		<script src ="library/leaflet/leaflet.js"></script>
-		<script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
 		<script src ="library/choropleth.js"></script>
 		<script src ="library/AnimatedMarker.js"></script>
 		<script src="library/leafletdraw/Leaflet.draw.js"></script>
@@ -40,9 +44,175 @@
 		<script src="Data/irisTchom.js"></script>
 	</head>
 
+	<header>
+		<div id="header_div">
+			<p id="main_title">Regards croisés entre <b>données sociales et mobilités</b> sur le Grand Lyon</p>
+			<p id="subtitle">réalisation d'une carte dynamique en utilisant leaflet</p>
+		</div>    
+    </header>
+
 	<body>
-		<h1>La map : </h1>
-		<div id='map'></div>
-		<script src="scriptTD.js"></script>		
+
+		<section id="separateur">
+			<div class="row">
+				<div class="column left">
+					<div class="to_center">
+					</div>
+				</div>
+				<div class="column middle">
+					<div class="to_center">
+						<img src="image/marker_deco.svg"
+							width="100"
+							height="100">
+					</div>
+				</div>
+				<div class="column right">
+					<div class="to_center">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="marges">
+			<h1>Présentation</h1>
+			<p class="texte">
+				La carte proposée ci-dessous cherche à mettre en avant la relation spatiale entre l'accessibilité aux transports en communs et un indicateur de précarité : le taux de chômage.  Les données utilisées pour cet indicateur sont calculées à la maille de l'Iris. Pour la représentation de l'accessibilité aux transports , nous représentons les lignes de métros et les stations d'auto-partage.
+			</p>
+		</section>
+
+		<section id="explications">
+			<div class="row">
+				<div class="column col_icon col_hauteur">
+					<div class="icone_option">
+						<img src="image/option_iris.svg"
+							width="100"
+							height="100">
+					</div>
+				</div>
+				<div class="column col_explications col_hauteur">
+					<div class="texte_option">
+						<p>
+							La premère option de la carte représente le <b>taux de chômage par Iris</b> dans l'agglomération lyonnaise. 
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column col_icon col_hauteur">
+					<div class="icone_option">
+						<img src="image/option_metro.svg"
+							width="100"
+							height="100">
+					</div>
+				</div>
+				<div class="column col_explications col_hauteur">
+					<div class="texte_option">
+						<p>
+							La seconde option de la carte permet d'afficher <b>les lignes de métro</b> de l'agglomération Lyonnaise. Une animation permet de déplacer un marqueur le long de la ligne jusqu'à son arrivée. 
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column col_icon col_hauteur">
+					<div class="icone_option">
+						<img src="image/option_car.svg"
+							width="100"
+							height="100">
+					</div>
+				</div>
+				<div class="column col_explications col_hauteur">
+					<div class="texte_option">
+						<p>
+							La troisième option de la carte sert à d'afficher <b>les stations d'auto-partage</b> de ce secteur sous forme de marqueurs. Ils changent de couleur et un buffeur apparaît autour au survol avec la souris. Cliquer dessus fait apparaître une pop-up indiquant le nom de la station.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="column col_icon col_hauteur">
+					<div class="icone_option">
+						<img src="image/option_draw.svg"
+							width="100"
+							height="100">
+					</div>
+				</div>
+				<div class="column col_explications col_hauteur">
+					<div class="texte_option">
+						<p>
+							Enfin, l'outil <b>de dessin</b> permet de déposer des marqueurs et de tracer des lignes et des polygones sur la carte. Essayez-le !
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div id="fond_carte">
+				<div id="map">
+				<script src="scriptTD.js"></script>				
+			</div>
+		</section>
+
+		<section class="marges">
+			<h1>Réalisation</h1>
+			<div class="credits">
+				<p class="nom">Hélène CRETOIS</p>
+				<p class="nom">Marie GRADELER</p>
+				<p class="nom">Corentin MARTINEZ</p>
+			</div>			
+			<p class="texte">
+				Cette carte a été réalisée dans le but de tester quelques unes des fonctionnalités de Leaflet et d'améliorer nos compétences en JavaScript. La création des icônes nous a permis de manipuler le format SVG, et l'intégration de tout ceci dans une page web nous a permis d'étoffer les fichiers HTML et CSV du projet. <b>Pour plus de renseignements, veuillez-consulter le rapport fourni en pièce-jointe</b>. 
+			</p>
+			<p class="texte">
+				<b>Les icônes de la carte, le site et ses illustrations ont été entièrement réalisés par nos soins.<br/>
+				Aucun template n'a été utilisé dans cette réalisation.</b>
+			</p>
+		</section>
+
+		<section id="liens">
+			<div class="row">
+				<div class="col_liens">
+					<div class="centrer_logo">
+						<img src="image/logo_master.png"
+							width="100"
+							height="100">
+					</div>
+					<div class="centrer_lien">
+							<a href="https://mastergeonum.org/" target="_blank" class="bouton_lien">visitez le site du master geonum</a>
+					</div>
+				</div>
+				<div class="col_liens">
+					<div class="centrer_logo">
+						<img src="image/logo_github.png"
+							width="100"
+							height="100">
+					</div>
+					<div class="centrer_lien">
+							<a href="https://github.com/GradelerM/TD_Leaflet" target="_blank" class="bouton_lien">retrouvez le code sur github</a>
+					</div>
+				</div>
+				<div class="col_liens">
+					<div class="centrer_leaf">
+						<img src="image/logo_leaflet.png"
+						width="200">
+					</div>
+					<div class="centrer_lien">
+							<a href="https://leafletjs.com/" target="_blank" class="bouton_lien">pour en savoir plus sur leaflet</a>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+				
 	</body>
+
+	<footer>
+		<div id="endnote">
+			<p>
+				Dernière version publiée le 10/02/2020
+			</p>
+		</div>
+	</footer>
+
 </html>
